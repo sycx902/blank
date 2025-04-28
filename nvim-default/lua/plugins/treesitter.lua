@@ -44,6 +44,17 @@ return { -- Highlight, edit, and navigate code
     },
     indent = { enable = true, disable = { 'ruby' } },
   },
+  -- 'p00f/nvim-ts-rainbow',
+  -- config = function ()
+    -- rainbow = {
+      -- enable = true,
+      -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
+      -- extended_mode = true, -- Also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
+      -- max_file_lines = nil, -- Do not enable for files with more than n lines, int
+      -- colors = {}, -- table of hex strings
+      -- termcolors = {} -- table of colour name strings
+    -- }
+  -- end
   -- There are additional nvim-treesitter modules that you can use to interact
   -- with nvim-treesitter. You should go explore a few and see what interests you:
   --

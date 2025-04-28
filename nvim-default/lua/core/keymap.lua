@@ -90,4 +90,9 @@ vim.keymap.set('n', '<C-l>', ':wincmd l<CR>', opts)
 -- Toggle line wrapping
 vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
 
+-- Execute script from current buffer
+vim.keymap.set("n", "<space><space>x","<cmd>source %<CR>")
+
+-- Floaterminal
+vim.keymap.set('n', '<A-t>', '<cmd>Floaterminal<CR>', opts)
 
